@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+</head>
+<body>
+	<div class="container">
+	  	<div class="helper"></div><div class="info">
+		
+			
+	  	</div>
+
+	</div>	
+	<header class="header">
+		
+			<a href="#"><img src="logo.png"></a>	
+		      <ul>
+        <li><a href="file:///C:/Users/a4815/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EA%B8%B0%EB%A7%90%EA%B3%BC%EC%A0%9C/home/index.html">home</li>
+        <li><a href="file:///C:/Users/a4815/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EA%B8%B0%EB%A7%90%EA%B3%BC%EC%A0%9C/about%20me/about%20me.html">about</a></li>
+        <li><a href="file:///C:/Users/a4815/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EA%B8%B0%EB%A7%90%EA%B3%BC%EC%A0%9C/skills/skills.html">skills</a></li>
+        <li><a href="file:///C:/Users/a4815/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EA%B8%B0%EB%A7%90%EA%B3%BC%EC%A0%9C/%ED%8F%AC%ED%8F%B4/%ED%8F%AC%ED%8F%B41.html">portfolio</a></li>
+        <li><a href="file:///C:/Users/a4815/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EA%B8%B0%EB%A7%90%EA%B3%BC%EC%A0%9C/contack.us/contack%20us.html">contact</a></li>
+      </ul>
+
+			
+			
+	</header>
+
+
+
+<SECTION 
+  <div class="skill-bars">
+    <div class="bar">
+      <div class="info">
+        <span>Photoshop</span>
+      </div>
+      <div class="progress-line Photoshop">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span> Illustrator</span>
+      </div>
+      <div class="progress-line  Illustrator">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>AfterEffects</span>
+      </div>
+      <div class="progress-line AfterEffects">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Figma</span>
+      </div>
+      <div class="progress-line Figma">
+        <span></span>
+      </div>
+    </div>
+
+
+</SECTION>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>                                
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Call us now</h3>
+                        <ul>
+                            <li><a href="#">Mobile phone. <br> 010 - 4855 - 5103</a></li>
+                            </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Send a message</h3>
+                        <ul>
+                            <li><a href="#">yoonjuhee9815@naver.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">YOON.JH © 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html,body{
+
+  height: 100%;
+
+
+}
+
+.skill-bars{
+	margin: 150px 450px;
+  padding: 25px 30px;
+  width: 600px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.skill-bars .bar{
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #6665ee;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.Photoshop span{
+  width: 90%;
+}
+.bar .progress-line.Illustrator span{
+  width: 85%;
+}
+.bar .progress-line.AfterEffects span{
+  width: 50%;
+}
+.bar .progress-line.Figma span{
+  width: 60%;
+}
+
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.Photoshop span::after{
+  content: "90%";
+}
+.progress-line.Illustrator span::after{
+  content: "85%";
+}
+.progress-line.AfterEffects span::after{
+  content: "50%";
+}
+.progress-line.Figma span::after{
+  content: "60%";
+}
+
+
+
+
+/* Container for skill bars */
+
+	.container {
+		   
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+        position: relative;
+    padding: 0px 0px 0px 0px;
+
+}
+
+
+ .image-wrap img {
+    max-width: 100%;
+    max-height: 50px;
+}
+
+	.bigHeader {
+    position: absolute;
+    left: 10%;
+    bottom: 80px;
+    display: inline-block;
+    margin: 0 auto;
+    z-index: 9;
+
+}
+	
+
+
+
+	
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background-color: white;
+
+		}
+
+		.header {
+			display: flex;
+			align-items:center;
+    		margin-right: auto;
+    		margin-left: auto;
+    		flex-wrap: nowrap;
+    		width: 1200px;
+    		justify-content: space-between;
+		}
+
+		.header img {
+			height: 27px;
+			float: left;
+		}
+
+		.header ul{
+			list-style: none;
+			display: flex;
+
+			
+
+		}
+
+		.header a{
+			color: inherit;
+			font-size: 1em;
+			text-decoration: none;
+			line-height: 65px;
+		}
+
+		.header li:not(:last-child) {
+			margin-right: 30px;
+
+		}
+	.header {
+			display: flex;
+			align-items:center;
+    		margin-right: auto;
+    		margin-left: auto;
+    		flex-wrap: nowrap;
+    		width: 1240px;
+    		justify-content: space-between;
+
+    		font-family: 'Roboto', sans-serif;
+		}
+
+
+
+	
+		.header-png  {
+			margin-top: 100px;
+			margin-left: 110px;
+
+		}
+
+		.footer-clean {
+  padding:50px 0;
+  background-color:#fff;
+  color:#4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+
+
+</style>
